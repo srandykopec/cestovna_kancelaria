@@ -17,6 +17,11 @@
 
   --font-nadpisy: 'Montserrat', sans-serif;
   --font-body: 'Open Sans', sans-serif;
+
+  --medzera-s: 1rem;
+  --medzera-m: 1.5rem;
+  --medzera-l: 2rem;
+  --medzera-x: 3rem;
 }
 
 body{
@@ -24,4 +29,41 @@ body{
   font-size: 1rem;
   background-color: var(--pozadie-biela);
   color: var(--text-tmavy);
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3{
+  font-family: var(--font-nadpisy);
+  margin: 0;
+}
+
+
+/* ==================== HLAVIČKA ==================== */
+
+.hlavicka{
+  background-color: var(--primarna);
+  color: var(--pozadie-svetla);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* ==================== NAVIGÁCIA ==================== */
+
+.navigacia__zoznam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
