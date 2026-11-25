@@ -84,3 +84,35 @@ h1,h2,h3{
   background-color: var(--primarna-tmava);
 
 }
+/*=========================HERO SEKCIA
+=========================*/
+
+.hero{
+  background: linear-gradient(135deg, var(--primarna), var(--primarna-tmava)) ;
+  text-align: center;
+  color: var(--pozadie-biela);
+  padding: var(--medzera-x) 0;
+}
+
+.hero__nadpis{
+  font-size: 2rem;
+  margin-bottom: var(--medzera-m);
+}
+
+.hero__odstavec{
+  font-size: 1.125rem;
+  margin-bottom: var(--medzera-l);
+}
+
+.tlacidlo{
+  background-color: var(--akcent);
+  padding: .75rem var(--medzera-m);
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.tlacidlo:hover{
+  background-color: #ea580c;
+
+}
