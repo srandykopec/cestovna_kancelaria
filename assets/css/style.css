@@ -116,3 +116,27 @@ h1,h2,h3{
   background-color: #ea580c;
 
 }
+
+
+/*=========================HERO VYHODY
+=========================*/
+
+.dovody{
+  background-color: var(--pozadie-svetla);
+}
+
+.dovody__nadpis{
+  text-align: center
+}
+
+
+.vyhody{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.vyhoda{
+  background-color: var(--pozadie-biela)  ;
+  padding: var(--medzera-m);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
